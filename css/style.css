@@ -127,10 +127,13 @@ section.our-services div h3 {
     font-size: 24px;
 }
 
-section.our-services div p {
+section.our-services div p,
+div.services-2 p,
+div.services-3 p {
     color: #1F2F2E;
     font-size: 16px;
     line-height: 24px;
+    max-width: 520px;
 }
 
 section.our-services div a.buttom {
@@ -154,30 +157,32 @@ section.our-services div a.buttom:hover {
     transition: .2s;
 }
 
+div.services-2 h3,
+div.services-2 h3 {
+    color: #1F2F2E;
+    margin-top: 180px;
+    font-size: 35px;
+}
 
+div.services-2 a,
+div.services-3 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #CF96BC;
+    height: 45px;
+    width: 150px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 41px;
+    margin-top: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.services-2 a:hover,
+div.services-3 a:hover {
+    color: #CF96BC;
+    border: 1px solid #CF96BC;
+    background: #fff;
+    transition: .2s;
+}
