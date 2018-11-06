@@ -365,7 +365,6 @@ section.check-our img {
     margin: 0 auto;
     width: 234px;
     height: 234px;
-    margin-top:
 }
 
 section.check-our div.name {
@@ -555,17 +554,200 @@ footer ul li a:hover {
 *************adaptation**********************
 ********************************************/
 
-@media (max-width: 575.98px) {
-    ...
-}
+@media (max-width: 575.98px) {}
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    ...
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    ...
+    header div.menu a img.logo {
+        padding-left: 30px;
+    }
+
+    header div.call-to h1 {
+        margin-top: 60px;
+        font-size: 48px;
+        line-height: 140%;
+    }
+
+    header div.call-to p {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        margin-top: 30px 0;
+    }
+    header {
+        height: 560px;
+    }
+
+    header div.call-to div a {
+        margin-top: 30px;
+    }
+
+    section.our-services div h3 {
+        text-align: center;
+    }
+
+    section.our-services div img.flower_min {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+
+    section.our-services div p,
+    div.services-2 div p {
+        margin-right: 10px;
+    }
+
+    section.our-services div.col-lg-3 h3 {
+        margin-top: 10px;
+    }
+
+    div.services-2 div h3,
+    div.services-3 div h3 {
+        margin: 0;
+    }
+
+    div.services-2 div a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background: #fff;
+        height: 45px;
+        width: 150px;
+        border-radius: 24px;
+        font-size: 16px;
+        color: #CF96BC;
+        line-height: 41px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    div.services-2 div a:hover {
+        background: #CF96BC;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    div.back-services {
+        padding-bottom: 40px;
+    }
+    
+    section.boy {
+    height: auto;
 }
+    
+    section.boy div img {
+        max-height: 100%;
+    }
+
+    section.boy div h3 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 28px;
+        width: 90%;
+    }
+
+    section.boy div p {
+        margin-left: 20px;
+        line-height: 180%;
+    }
+
+    section.next-boy h4 {
+        font-size: 36px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        margin: 0px;
+        padding: 130px 35px 0 35px;
+    }
+
+    section.check-our h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    section.check-our img {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    section.check-our p {
+        margin-right: 10px;
+        text-indent: 1.5em;
+    }
+
+    section.check-our div.name {
+        font-size: 25px;
+        line-height: 110%;
+    }
+
+    section.check-our {
+        height: auto;
+    }
+
+    section.footer div.contact {
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    section.footer p.adress {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    section.footer p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    section.footer ul {
+        list-style-type: none;
+        padding: 20px;
+        margin: 0 auto;
+        width: 494px;
+    }
+
+    section.footer ul {
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    section.footer input[type="text"] {
+        margin-top: 10px;
+    }
+
+    section.footer textarea {
+        height: 120px;
+    }
+
+    section.footer input[type="text"],
+    section.footer input[type="email"] {
+        height: 40px;
+    }
+
+    section.footer button:hover {
+        color: #CF96BC;
+        background: #fff;
+        transition: .2s;
+    }
+
+    footer p {
+        list-style-type: none;
+        margin-top: 15px;
+        padding-left: 40px;
+        text-align: right;
+        color: #fff;
+    }    
+}
+
+
+
+
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     header nav ul li {
@@ -655,16 +837,16 @@ footer ul li a:hover {
         margin-right: 10px;
 
     }
-    
+
     section.footer input[type="text"],
     section.footer input[type="email"],
     section.footer textarea {
         width: 400px;
     }
-    
+
     section.footer {
-    height: auto;
-}
+        height: auto;
+    }
 }
 
 
