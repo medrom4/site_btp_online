@@ -16,7 +16,7 @@ header {
 
 header div.menu {
     height: 134px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     color: #7D1165;
     z-index: 999;
@@ -581,9 +581,9 @@ footer p {
     }
 
     header div.call-to h1 {
-        margin-top: 320px;
-        font-size: 28px;
-        line-height: 120%;
+        margin-top: 250px;
+        font-size: 92%;
+        line-height: 200%;
     }
 
     header {
@@ -613,6 +613,8 @@ footer p {
 
     section.our-services div h3 {
         text-align: center;
+        font-size: 26px;
+        line-height: 100%;
     }
 
     section.our-services div img.flower_min {
@@ -621,21 +623,31 @@ footer p {
         width: 80px;
     }
 
+    .img_delete {
+        display: none;
+    }
+
+    div.services-2 div h3,
+    div.services-3 div h3 {
+        margin-top: 20px;
+    }
+
     section.our-services div p,
     div.services-2 div p {
         font-size: 16px;
         line-height: 24px;
         text-indent: 1.5em;
         text-align: justify;
+        margin: 0 auto;
+    }
+
+    div.services-3 div a,
+    div.services-2 div a {
+        margin: 10px auto;
     }
 
     section.our-services div.col-lg-3 h3 {
         margin-top: 10px;
-    }
-
-    div.services-2 div h3,
-    div.services-3 div h3 {
-        margin: 0;
     }
 
     div.back-services {
@@ -651,12 +663,12 @@ footer p {
     }
 
     section.next-boy h4 {
-        font-size: 36px;
+        font-size: 26px;
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.7);
         margin: 0px;
-        padding: 120px 35px 0 35px;
+        padding: 140px 35px 0 35px;
         line-height: 130%;
     }
 
@@ -687,9 +699,13 @@ footer p {
         height: auto;
     }
 
+    section.footer {
+        height: 100vh;
+    }
+
     section.footer div.contact {
         color: #fff;
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         font-weight: bold;
         margin-top: 0px;
@@ -701,16 +717,27 @@ footer p {
     }
 
     section.footer p {
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 15px;
         text-align: center;
     }
 
     section.footer ul {
-        list-style-type: none;
-        padding: 20px;
+        padding: 0px;
         margin: 0 auto;
-        width: 494px;
+        margin-top: 15px;
+    }
+
+    section.footer ul li {
+        display: inline-block;
+        margin-right: 11px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+    }
+
+    section.footer ul li.facebook {
+        margin-left: 13px;
     }
 
     section.footer ul {
@@ -724,13 +751,13 @@ footer p {
 
     section.footer textarea {
         height: 140px;
-        width: 450px;
+        width: 300px;
     }
 
     section.footer input[type="text"],
     section.footer input[type="email"] {
-        width: 450px;
-        height: 45px;
+        width: 300px;
+        height: 40px;
     }
 
     section.footer button:hover {
@@ -739,19 +766,67 @@ footer p {
         transition: .2s;
     }
 
+    footer {
+        height: 6em;
+    }
+
+    footer ul {
+        margin-top: 6px;
+        font-size: 100%;
+        padding: 0px;
+        color: #fff;
+    }
+
     footer ul li {
-        display: inline-block;
-        font-size: 14px;
-        margin-left: -10px;
+        margin-top: 8px;
+        margin-right: 60px;
+        font-size: 100%;
+        padding: 0px;
+        color: #fff;
     }
 
     footer p {
-        list-style-type: none;
-        margin-top: 5px;
-        text-align: right;
+        margin: 15px 10px 0px 10px;
+        font-size: 105%;
+        padding: 0px;
         color: #fff;
+        text-align: right;
+    }
+
+    footer div.container {
+        width: 100%;
+        padding: 0 0 0 15px;
+        margin: 0;
+    }
+
+    footer ul li {
+        display: inline-block;
+        font-size: 14px;
+        margin-left: -4px;
+    }
+
+    section.footer ul li.facebook {
+        padding: 10px 19px;
+    }
+
+    section.footer ul li.twitter {
+        padding: 10px 14px;
+    }
+
+    section.footer ul li.pinterest {
+        padding: 10px 17px;
+    }
+
+    section.footer ul li.google {
+        padding: 10px 16px;
+    }
+
+    section.footer ul li.email {
+        padding: 10px 13px;
     }
 }
+
+
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     header div.menu a img.logo {
@@ -939,7 +1014,7 @@ footer p {
 
     footer p {
         list-style-type: none;
-        margin-top: 5px;
+        margin-top: 32px;
         text-align: right;
         color: #fff;
     }
@@ -1131,7 +1206,7 @@ footer p {
 
     footer p {
         list-style-type: none;
-        margin-top: 15px;
+        margin-top: 32px;
         text-align: right;
         color: #fff;
     }
@@ -1217,7 +1292,9 @@ footer p {
 
     section.footer div.contact {
         font-size: 36px;
-    }
+        padding-right: 10px;
+        
+    }    
 
     section.footer p.adress {
         font-size: 14px;
@@ -1248,7 +1325,7 @@ footer p {
 
 @media (min-width: 1200px) and (max-width: 1409.98px) {
     header div.call-to h1 {
-        margin: 250px auto;
+        margin-top: 300px;
         width: 90%;
     }
 
@@ -1309,6 +1386,10 @@ footer p {
     section.footer input[type="email"],
     section.footer textarea {
         width: 400px;
+    }
+    
+    section.footer div.contact {
+        padding-right: 20px;
     }
 
     footer p {
